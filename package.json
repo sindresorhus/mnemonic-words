@@ -1,0 +1,37 @@
+{
+	"name": "mnemonic-words",
+	"version": "0.0.0",
+	"description": "List of words for making random mnemonic sentences",
+	"license": "MIT",
+	"repository": "sindresorhus/mnemonic-words",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"words.json"
+	],
+	"keywords": [
+		"mnemonic",
+		"words",
+		"word",
+		"wordlist",
+		"seed",
+		"sentence",
+		"code",
+		"bip39",
+		"bitcoin"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}
