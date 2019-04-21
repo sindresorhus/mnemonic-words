@@ -1,8 +1,8 @@
 import test from 'ava';
-import m from '.';
+import mnemonicWords from '.';
 
-test(t => {
-	t.true(Array.isArray(m));
-	t.true(m.length > 0);
-	t.is(m[20], 'action');
+test('main', t => {
+	t.true(Array.isArray(mnemonicWords));
+	t.true(mnemonicWords.length > 0);
+	t.is(mnemonicWords[20], 'action');
 });
