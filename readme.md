@@ -1,4 +1,4 @@
-# mnemonic-words [![Build Status](https://travis-ci.org/sindresorhus/mnemonic-words.svg?branch=master)](https://travis-ci.org/sindresorhus/mnemonic-words)
+# mnemonic-words
 
 > List of words for making random mnemonic sentences
 
